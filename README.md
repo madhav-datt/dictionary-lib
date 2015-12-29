@@ -10,7 +10,7 @@ This library can be used to load a dictionary file into memory and spellcheck ov
 * `unsigned int size (void)` - Returns number of words in dictionary if loaded else 0 if not yet loaded.
 * `bool unload (void)` - Unloads dictionary from memory.  Returns true if successful else false.
 
-## Dictionary File
+## Dictionary File 
 
 The dictionary file must be loaded to memory using the `load (dictionary)` function. The dictionary must be in a .txt format, with each word in a new line. The `Dictionary.txt` file included with the release contains 358232 words and can be used.
 
