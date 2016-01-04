@@ -2,7 +2,7 @@
 C language Dictionary Library designed to use the English dictionary in Trie data structures for fast spell-checking.
 This library can be used to load a dictionary file into memory and spellcheck over 1 million words in close to 1 second.
 
-## Library Contents and Functions
+## Library Interface - Contents and Functions
 
 * `LENGTH` - Assumed maximum word length in dictionary
 * `bool check (const char* word)` - Checks if `word` is present in the dictionary - ie. is correctly spelled. Returns true if word is in dictionary else false.
