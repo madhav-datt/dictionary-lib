@@ -195,7 +195,7 @@ bool unload_rec (node* dict_rem)
             unload_rec (tmp -> next[i]);
 
     free (tmp);
-    tmp = NULL;
+    tmp = NULL; 
     
     return true;
 }
