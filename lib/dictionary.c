@@ -9,7 +9,7 @@
  * unload - unload dictionary to free memory
  * unload_rec - recursively unload children nodes from trie
  *
- * Copyright (C)   2015    Madhav Datt
+ * Copyright (C)   2016    Madhav Datt
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
  */
